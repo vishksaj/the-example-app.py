@@ -1,9 +1,9 @@
 pipeline {
     agent {
-             any
+        any
     }
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
                 sh 'make run'
             }
