@@ -13,3 +13,6 @@ watch:
 
 lint:
 	flake8 --exclude=tests --show-source
+
+build:
+	docker build -t python_latest_app:001 .
