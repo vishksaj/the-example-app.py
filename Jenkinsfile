@@ -1,12 +1,10 @@
 pipeline {
-    agent {
-        any
+  agent
+  stages {
+    stage ('Build') {
+      steps {
+        sh 'make run'
+      }
     }
-    stages {
-        stage('Build') {
-            steps {
-                sh 'make run'
-            }
-        }
-    }
+  }
 }
