@@ -10,7 +10,6 @@ coverage==4.4.2
 decorator==4.1.2
 flake8==3.5.0
 Flask==0.12.2
-Flask-Misaka==0.4.1
 Flask-SSLify==0.1.5
 future==0.16.0
 greenlet==0.4.12
