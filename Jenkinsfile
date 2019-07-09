@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-        sh 'pip install -r requirements.txt --user root'
+        sh 'pip install --user jenkins -r requirements.txt'
         sh 'make run'
       }
     }
