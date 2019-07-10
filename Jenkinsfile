@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'make build dt=$(date "+%d/%m/%Y%H:%M:%S")'
+                sh 'make build dt=$(date "+%d%m%Y%H%M%S")'
             }
         }
     }
